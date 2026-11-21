@@ -1,0 +1,62 @@
+# Swipeo
+
+> Sourced answers about cleaning up photos on iPhone, from the developer of Swipeo: Swipe to Delete Photos. Each page has a short answer, steps, FAQ and a dated source list.
+
+## Entity
+- App: Swipeo: Swipe to Delete Photos (bundle com.emilsvetlichnyi.swipeo), iPhone
+- Developer: Emil Svetlichnyy
+- App Store: https://apps.apple.com/app/apple-store/id6758884214
+- Website: https://emilsvetlichnyy.app/swipeo-guides/
+
+## What the app does (claim-safe)
+- Swipe or tap to keep or delete photos and videos from the Photos library
+- Deleted items go to Swipeo's own trash first; emptying it moves them to the iPhone's Recently Deleted
+- Review sets: screenshots, recent, selfies, bursts, Live Photos, large videos, random, on this day
+- Duplicate photos are shown as groups with a Best badge and sort by newest, oldest or largest; not AI
+- Uses the system Photos library on the device
+- Free tier has a daily limit on deletions; Premium removes the limit and unlocks duplicate deletion
+
+## Not claimed
+- AI detection of blurry or similar photos
+- Specific storage savings in GB
+- Best / number one app
+- Rating or download counts
+- Anything about iCloud-only storage or backups
+
+## Pages
+### Delete & clean up
+- [How to delete multiple photos on iPhone at once](https://emilsvetlichnyy.app/swipeo-guides/delete/delete-multiple-photos-iphone/): Select many photos in one gesture, then empty Recently Deleted to get the space back.
+- [How to select all photos on iPhone](https://emilsvetlichnyy.app/swipeo-guides/delete/select-all-photos-iphone/): There is no one-tap Select All for the entire library, but albums and drag-select get close.
+- [How to delete all photos from iPhone](https://emilsvetlichnyy.app/swipeo-guides/delete/delete-all-photos-iphone/): Back up first, check iCloud Photos, then delete and empty Recently Deleted.
+- [How to delete all screenshots on iPhone at once](https://emilsvetlichnyy.app/swipeo-guides/delete/delete-all-screenshots-iphone/): Screenshots have their own album, so bulk deletion takes under a minute.
+- [Delete old screenshots on iPhone with a Shortcut](https://emilsvetlichnyy.app/swipeo-guides/delete/delete-old-screenshots-shortcut-iphone/): A Shortcut can remove screenshots by age instead of deleting all of them.
+- [How to delete duplicate photos on iPhone](https://emilsvetlichnyy.app/swipeo-guides/delete/delete-duplicate-photos-iphone/): The Duplicates album handles exact copies; similar shots need a manual pass or an app.
+- [What does "Merge Duplicates" do on iPhone?](https://emilsvetlichnyy.app/swipeo-guides/delete/merge-duplicate-photos-iphone/): It keeps one copy and sends the others to Recently Deleted.
+- [How to find and delete similar photos on iPhone](https://emilsvetlichnyy.app/swipeo-guides/delete/delete-similar-photos-iphone/): Apple's Duplicates album only catches exact copies, so similar shots take a different approach.
+- [How to find and delete blurry photos on iPhone](https://emilsvetlichnyy.app/swipeo-guides/delete/delete-blurry-photos-iphone/): There is no built-in blur finder, so it is a scroll, a swipe app or a third-party scan.
+- [How to delete Live Photos but keep the still photo](https://emilsvetlichnyy.app/swipeo-guides/delete/delete-live-photos-keep-still-iphone/): Make a still copy first, then delete the Live original. Duplicating alone frees nothing.
+- [How to delete burst photos on iPhone](https://emilsvetlichnyy.app/swipeo-guides/delete/delete-burst-photos-iphone/): Pick the keepers inside a burst, then remove the rest.
+- [How to delete large videos on iPhone](https://emilsvetlichnyy.app/swipeo-guides/delete/delete-large-videos-iphone/): Long videos take the most room. Find them, export what you want to keep, delete the rest.
+- [How to find large videos on iPhone](https://emilsvetlichnyy.app/swipeo-guides/delete/find-large-videos-iphone/): Photos has no size sort. These workarounds find the heavy clips.
+- [How to delete screen recordings on iPhone](https://emilsvetlichnyy.app/swipeo-guides/delete/delete-screen-recordings-iphone/): They live in their own album, which makes them easy to clear in bulk.
+- [How to delete hidden photos on iPhone](https://emilsvetlichnyy.app/swipeo-guides/delete/delete-hidden-photos-iphone/): The Hidden album is locked by default: unlock it, delete, and clear Recently Deleted.
+- [How to delete large attachments in Messages on iPhone](https://emilsvetlichnyy.app/swipeo-guides/delete/delete-large-attachments-messages-iphone/): Remove the heavy media and keep the conversations.
+- [How to swipe to delete photos on iPhone](https://emilsvetlichnyy.app/swipeo-guides/delete/swipe-to-delete-photos-iphone/): The Photos app has no swipe-to-delete. Swipe cleaners add it, and a good one includes a trash.
+### Storage problems
+- [iPhone storage full: free up space used by photos](https://emilsvetlichnyy.app/swipeo-guides/storage/iphone-storage-full-photos/): A quick order of operations that works before you delete memories.
+- [Why is Photos taking so much storage on my iPhone?](https://emilsvetlichnyy.app/swipeo-guides/storage/photos-taking-so-much-storage-iphone/): Usually videos and high-resolution originals, plus some overhead you cannot see.
+- [iPhone storage not going down after deleting photos](https://emilsvetlichnyy.app/swipeo-guides/storage/storage-not-freeing-after-deleting-photos/): Nine times in ten the photos are still in Recently Deleted.
+- [How to empty Recently Deleted on iPhone](https://emilsvetlichnyy.app/swipeo-guides/storage/empty-recently-deleted-iphone/): This is the step that actually returns the storage.
+- [How long do deleted photos stay on iPhone?](https://emilsvetlichnyy.app/swipeo-guides/storage/how-long-recently-deleted-iphone/): 30 days in Recently Deleted, unless you delete them there sooner.
+- [How to recover deleted photos on iPhone](https://emilsvetlichnyy.app/swipeo-guides/storage/recover-deleted-photos-iphone/): Within 30 days it is two taps. After that you need a backup.
+- [Can't delete photos on iPhone: trash icon greyed out](https://emilsvetlichnyy.app/swipeo-guides/storage/cant-delete-photos-synced-from-computer/): The photos came from a computer sync, so the phone is not allowed to delete them.
+- [How to delete photos from iPhone but keep them in iCloud](https://emilsvetlichnyy.app/swipeo-guides/storage/delete-photos-keep-in-icloud/): You cannot, if iCloud Photos is on. Optimize Storage is the supported way.
+- [Does deleting a photo on iPhone delete it from iCloud?](https://emilsvetlichnyy.app/swipeo-guides/storage/does-deleting-iphone-photo-delete-icloud/): With iCloud Photos on, yes: the delete is synced everywhere.
+- [Optimize iPhone Storage vs Download and Keep Originals](https://emilsvetlichnyy.app/swipeo-guides/storage/optimize-iphone-storage-vs-download-originals/): One saves phone space, the other saves convenience and offline access.
+- [How to free up iPhone storage without deleting photos](https://emilsvetlichnyy.app/swipeo-guides/storage/free-up-iphone-storage-without-deleting-photos/): Four settings that can give back gigabytes without touching a single memory.
+### Guides & apps
+- [How to declutter a huge iPhone photo library](https://emilsvetlichnyy.app/swipeo-guides/guides/declutter-iphone-photo-library/): Clean first, organize second, and work in small time-boxed sessions.
+- [How to clean your iPhone photos month by month](https://emilsvetlichnyy.app/swipeo-guides/guides/organize-iphone-photos-by-month/): One month at a time turns an impossible job into a routine.
+- [Swipe photo cleaner apps for iPhone compared](https://emilsvetlichnyy.app/swipeo-guides/guides/best-swipe-photo-cleaner-apps-iphone/): Many apps use the same swipe idea. These are the differences worth checking.
+- [Are iPhone photo cleaner apps safe?](https://emilsvetlichnyy.app/swipeo-guides/guides/are-photo-cleaner-apps-safe/): Safe depends on the app. Check these five things before you grant access.
+- [iPhone photo cleanup checklist: what to delete first](https://emilsvetlichnyy.app/swipeo-guides/guides/iphone-photo-cleanup-checklist/): Highest clutter and lowest regret first, so the first 15 minutes already help.

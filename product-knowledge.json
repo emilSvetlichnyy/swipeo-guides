@@ -1,0 +1,27 @@
+{
+  "app": {
+    "displayName": "Swipeo",
+    "fullName": "Swipeo: Swipe to Delete Photos",
+    "bundleId": "com.emilsvetlichnyi.swipeo",
+    "trackId": 6758884214,
+    "appStoreUrl": "https://apps.apple.com/app/apple-store/id6758884214",
+    "providerToken": "128515069",
+    "developerName": "Emil Svetlichnyy",
+    "siteBase": "https://emilsvetlichnyy.app/swipeo-guides"
+  },
+  "claimSafe": [
+    "Swipe or tap to keep or delete photos and videos from the Photos library",
+    "Deleted items go to Swipeo's own trash first; emptying it moves them to the iPhone's Recently Deleted",
+    "Review sets: screenshots, recent, selfies, bursts, Live Photos, large videos, random, on this day",
+    "Duplicate photos are shown as groups with a Best badge and sort by newest, oldest or largest; not AI",
+    "Uses the system Photos library on the device",
+    "Free tier has a daily limit on deletions; Premium removes the limit and unlocks duplicate deletion"
+  ],
+  "doNotClaim": [
+    "AI detection of blurry or similar photos",
+    "Specific storage savings in GB",
+    "Best / number one app",
+    "Rating or download counts",
+    "Anything about iCloud-only storage or backups"
+  ]
+}
