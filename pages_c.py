@@ -244,7 +244,7 @@ add(
         ("Is Swipeo free?", "It has a free tier with a daily limit on deletions; Premium removes the limit."),
     ],
     sources=[APPSTORE_SWIPEWIPE, APPSTORE_CLEANCAMERA, APPSTORE_SWIPY, APPSTORE_WYPRR, APPSTORE_SWIPER, APPSTORE_SWIPEAWAY, APPSTORE_SWIPEO],
-    related=["swipe-to-delete-photos-iphone", "are-photo-cleaner-apps-safe"],
+    related=["swipe-to-delete-photos-iphone", "are-photo-cleaner-apps-safe", "swipeo-vs-slidebox", "best-apps-to-delete-duplicate-photos-iphone", "best-apps-to-free-up-iphone-storage-photos"],
     swipeo="You are reading a page by the developer of Swipeo. The app is free to start with a daily deletion limit.",
 )
 

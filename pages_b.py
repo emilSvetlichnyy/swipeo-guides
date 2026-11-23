@@ -150,7 +150,7 @@ add(
         ("Can I undo a swipe?", "In a swipe app with a trash, yes. After final deletion, iOS keeps items in Recently Deleted for 30 days."),
     ],
     sources=[APPSTORE_CLEANCAMERA, APPSTORE_WYPRR, APPSTORE_SWIPER, APPLE_DELETE],
-    related=["best-swipe-photo-cleaner-apps-iphone", "are-photo-cleaner-apps-safe", "organize-iphone-photos-by-month"],
+    related=["best-swipe-photo-cleaner-apps-iphone", "are-photo-cleaner-apps-safe", "organize-iphone-photos-by-month", "swipeo-vs-slidebox"],
     swipeo="This is what Swipeo does: swipe or tap to keep or delete, a trash you can review, and duplicate groups. Processing uses the system Photos library on the device.",
 )
 
@@ -182,7 +182,7 @@ add(
         ("Is iCloud a replacement for local space?", "Optimized photos still keep smaller local copies, so it reduces but does not remove local use."),
     ],
     sources=[APPLE_STORAGE, MACRUMORS_GUIDE, TOMS_NO_DELETE],
-    related=["storage-not-freeing-after-deleting-photos", "optimize-iphone-storage-vs-download-originals", "delete-large-videos-iphone"],
+    related=["storage-not-freeing-after-deleting-photos", "optimize-iphone-storage-vs-download-originals", "delete-large-videos-iphone", "best-apps-to-free-up-iphone-storage-photos"],
     swipeo="Swipeo helps with the manual part: swipe through screenshots, videos and duplicates and delete what you do not need. " + SW_SWIPE,
 )
 

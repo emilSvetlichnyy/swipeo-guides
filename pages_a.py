@@ -160,7 +160,7 @@ add(
         ("Why is the Duplicates album empty?", "Either there are no exact copies, or the library is still being analysed. It also needs iOS 16 or later."),
     ],
     sources=[PETAPIXEL_DUP, APPLE_STORAGE, MACPAW_SIMILAR],
-    related=["merge-duplicate-photos-iphone", "delete-similar-photos-iphone", "empty-recently-deleted-iphone"],
+    related=["merge-duplicate-photos-iphone", "delete-similar-photos-iphone", "empty-recently-deleted-iphone", "best-apps-to-delete-duplicate-photos-iphone"],
     swipeo=f"Swipeo shows duplicates as groups (by type, resolution and capture time, not by AI) so you can pick what to keep. Deleting duplicates is part of Premium.",
 )
 
