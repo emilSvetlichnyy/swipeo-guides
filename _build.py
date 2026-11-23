@@ -21,6 +21,7 @@ FULL = PK["app"]["fullName"]
 DEV = PK["app"]["developerName"]
 CHECKED = "21 Nov 2026"
 ISO = "2026-11-21"
+ISO_SITE = "2026-11-23"  # hubs, home, llms: latest change
 
 GROUPS = {
     "delete": ("Delete & clean up", "Step-by-step ways to delete and find unwanted photos, videos and screenshots on iPhone."),
@@ -160,7 +161,7 @@ def page_html(pg: dict) -> tuple[str, str]:
       <article>
         <h1>{esc(pg["h1"])}</h1>
         <p class="lead">{esc(pg["lead"])}</p>
-        <p class="meta">Checked {CHECKED} · by {esc(DEV)}, developer of {NAME}</p>
+        <p class="meta">Checked {pg.get("checked", CHECKED)} · by {esc(DEV)}, developer of {NAME}</p>
         <div class="answer"><strong>Short answer</strong>{pg["answer"]}</div>
 {steps}
 {pg.get("body", "")}
@@ -172,7 +173,7 @@ def page_html(pg: dict) -> tuple[str, str]:
         </section>
         <section><h2>FAQ</h2>{faq}</section>
         {rel_links}
-        <section class="sources"><h2>Sources</h2><ul>{srcs}</ul><p>Steps and menu names can differ slightly between iOS versions. Last checked {CHECKED}.</p></section>
+        <section class="sources"><h2>Sources</h2><ul>{srcs}</ul><p>Steps and menu names can differ slightly between iOS versions. Last checked {pg.get("checked", CHECKED)}.</p></section>
       </article>
     </main>"""
     url = f"{BASE}/{rel}/"
@@ -183,8 +184,8 @@ def page_html(pg: dict) -> tuple[str, str]:
         "description": pg["description"],
         "url": url,
         "mainEntityOfPage": url,
-        "datePublished": ISO,
-        "dateModified": ISO,
+        "datePublished": pg.get("iso", ISO),
+        "dateModified": pg.get("iso", ISO),
         "author": {"@type": "Person", "name": DEV},
         "publisher": {"@type": "Organization", "name": NAME, "url": f"{BASE}/"},
         "about": {"@type": "MobileApplication", "name": FULL, "url": APP},
@@ -262,8 +263,9 @@ def write(rel: str, html: str) -> None:
 
 def support_files(urls: list[str]) -> None:
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    iso_by = {f"{BASE}/{x['group']}/{x['slug']}/": x.get("iso", ISO) for x in PAGES}
     for u in urls:
-        sm.append(f"  <url><loc>{u}</loc><lastmod>{ISO}</lastmod></url>")
+        sm.append(f"  <url><loc>{u}</loc><lastmod>{iso_by.get(u, ISO_SITE)}</lastmod></url>")
     sm.append("</urlset>")
     (ROOT / "sitemap.xml").write_text("\n".join(sm) + "\n", encoding="utf-8")
     (ROOT / "robots.txt").write_text(

@@ -34,3 +34,11 @@ APPSTORE_SWIPEO = ("App Store: Swipeo", "https://apps.apple.com/app/apple-store/
 APPSTORE_CLEANMYPHONE = ("App Store: CleanMy Phone", "https://apps.apple.com/kw/app/id1277110040?l=en-gb")
 
 SW_SWIPE = "Open the app, swipe or tap to keep or delete, and check Swipeo's trash before anything reaches the iPhone's Recently Deleted."
+
+APPSTORE_CLEVER = ("App Store: Clever Cleaner: AI CleanUp App (CleverFiles)", "https://apps.apple.com/us/app/clever-cleaner-ai-cleanup-app/id1666645584")
+APPSTORE_CMP = ("App Store: CleanMy®Phone (MacPaw)", "https://apps.apple.com/us/app/cleanmy-phone-cleanup-storage/id1277110040")
+APPSTORE_REMO = ("App Store: Remo Duplicate Photos Remover", "https://apps.apple.com/us/app/remo-duplicate-photos-remover/id1066797785")
+APPSTORE_SLIDEBOX = ("App Store: Slidebox: Photo Cleaner App", "https://apps.apple.com/us/app/slidebox-photo-cleaner-app/id984305203")
+APPSTORE_PIXTIDE = ("App Store: Pixtide Swipe: Photo Cleaner", "https://apps.apple.com/us/app/pixtide-swipe-photo-cleaner/id6760231644")
+APPSTORE_ODOA = ("App Store: Photo Storage Cleaner: Odoa", "https://apps.apple.com/us/app/photo-storage-cleaner-odoa/id1460602616")
+APPSTORE_SWIPEO_US = ("App Store: Swipeo: Swipe to Delete Photos", "https://apps.apple.com/us/app/swipeo-swipe-to-delete-photos/id6758884214")
