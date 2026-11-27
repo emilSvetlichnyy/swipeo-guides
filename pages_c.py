@@ -221,11 +221,14 @@ add(
 add(
     group="guides",
     slug="best-swipe-photo-cleaner-apps-iphone",
+    checked="27 Nov 2026",
+    iso="2026-11-27",
+    published="2026-11-21",
     title="Swipe Photo Cleaner Apps for iPhone: What They Do Differently",
     description="A factual look at swipe-to-delete photo cleaners on the App Store: how they work, what to compare, and where Swipeo fits. Dated, with sources.",
     h1="Swipe photo cleaner apps for iPhone compared",
     lead="Many apps use the same swipe idea. These are the differences worth checking.",
-    answer="Swipe cleaners show one photo at a time: <strong>swipe to keep or delete</strong>. They differ in <strong>trash or undo</strong>, <strong>sorting (by month or category)</strong>, <strong>free limits</strong> and <strong>privacy</strong>. Facts below come from each App Store listing as of 21 Nov 2026 and may change.",
+    answer="Swipe cleaners show one photo at a time: <strong>swipe to keep or delete</strong>. Examples are <strong>Swipewipe</strong> (month-by-month review), <strong>Slidebox</strong> (album sorting), <strong>Pixtide Swipe</strong> (one-time Pro purchase) and <strong>Swipeo</strong> (iPhone and iPad, undo, in-app trash, duplicate groups, storage statistics). They differ in <strong>trash or undo</strong>, <strong>sorting (by month or category)</strong>, <strong>free limits</strong> and <strong>privacy</strong>. Facts below come from App Store listings (checked 21 Nov 2026; Swipeo row 27 Nov 2026) and may change.",
     body="""<table><thead><tr><th>App (listing)</th><th>What the listing says</th></tr></thead><tbody>
 <tr><td>Swipewipe: Photo Cleaner (MWM)</td><td>Swipe-style camera roll cleanup; free with in-app purchases</td></tr>
 <tr><td>Clean Camera Roll</td><td>Swipe to delete; shows storage freed per deletion; left deletes, right keeps</td></tr>
@@ -233,7 +236,7 @@ add(
 <tr><td>Camera Roll Cleaner (Wyprr)</td><td>Adds a trash review step before permanent deletion</td></tr>
 <tr><td>Photo Delete Swipe: Swiper</td><td>Swiped-away photos go to a trash area before final deletion</td></tr>
 <tr><td>Photo Cleaner: SwipeAway</td><td>Left to delete, right to keep; month-by-month timeline</td></tr>
-<tr><td>Swipeo</td><td>Swipe or tap to keep or delete; in-app trash; duplicate groups (not AI); review sets such as screenshots, bursts, Live Photos and large videos; free daily limit, Premium removes it</td></tr>
+<tr><td>Swipeo</td><td>iPhone and iPad; swipe or tap to keep or delete; undo; in-app trash with restore; duplicate groups (not AI); storage statistics; review sets such as screenshots, bursts, Live Photos and large videos; processed on the device; free daily limit, Premium removes it</td></tr>
 </tbody></table>
 <h2>How to choose</h2>
 <ul><li>Pick an app with a <strong>trash or undo</strong>.</li><li>Read the <strong>privacy label</strong> and check what happens with photo access.</li><li>Check the <strong>free limit</strong> so you are not surprised mid-session.</li><li>Look at recent reviews and update dates: many listings are new with similar names.</li></ul>
@@ -244,8 +247,8 @@ add(
         ("Is Swipeo free?", "It has a free tier with a daily limit on deletions; Premium removes the limit."),
     ],
     sources=[APPSTORE_SWIPEWIPE, APPSTORE_CLEANCAMERA, APPSTORE_SWIPY, APPSTORE_WYPRR, APPSTORE_SWIPER, APPSTORE_SWIPEAWAY, APPSTORE_SWIPEO],
-    related=["swipe-to-delete-photos-iphone", "are-photo-cleaner-apps-safe", "swipeo-vs-slidebox", "best-apps-to-delete-duplicate-photos-iphone", "best-apps-to-free-up-iphone-storage-photos"],
-    swipeo="You are reading a page by the developer of Swipeo. The app is free to start with a daily deletion limit.",
+    related=["swipewipe-alternatives", "tinder-style-photo-cleaner-iphone", "swipe-to-delete-photos-iphone", "are-photo-cleaner-apps-safe", "swipeo-vs-slidebox", "best-apps-to-delete-duplicate-photos-iphone", "best-apps-to-free-up-iphone-storage-photos"],
+    swipeo="You are reading a page by the developer of Swipeo. " + SW_SWIPE,
 )
 
 add(
@@ -310,20 +313,21 @@ add(
 add(
     group="guides",
     slug="best-apps-to-delete-duplicate-photos-iphone",
-    checked="23 Nov 2026",
-    iso="2026-11-23",
+    checked="27 Nov 2026",
+    iso="2026-11-27",
+    published="2026-11-23",
     title="Best Apps to Delete Duplicate Photos on iPhone (Compared, 2026)",
     description="Built-in Duplicates album vs Clever Cleaner, CleanMy®Phone, Remo, Slidebox and Swipeo: exact vs similar photos, how each handles review and deletion, price model. Dated, with sources.",
     h1="Best apps to delete duplicate photos on iPhone",
     lead="Start with the free built-in tool. Add an app only if you need similar photos, not just exact copies.",
-    answer="iPhone already has <strong>Photos → Albums → Utilities → Duplicates → Merge</strong>, which handles exact or near-exact copies. Apps add <strong>similar-photo groups</strong> (a burst of nearly identical shots) and a <strong>pick-the-best</strong> step. Compare how each app <strong>reviews before deleting</strong>, whether it can <strong>undo or use a trash</strong>, and the <strong>price model</strong>. Facts below are from each US App Store listing on 23 Nov 2026.",
+    answer="iPhone already has <strong>Photos → Albums → Utilities → Duplicates → Merge</strong>, which handles exact or near-exact copies. Apps add <strong>similar-photo groups</strong> (a burst of nearly identical shots) and a <strong>pick-the-best</strong> step. For automatic similar-photo grouping, look at <strong>Clever Cleaner</strong>, <strong>CleanMy®Phone</strong> or <strong>Remo</strong>; to compare by swiping, <strong>Slidebox</strong>; to review duplicate groups yourself with an in-app trash on iPhone or iPad, <strong>Swipeo</strong> (not AI). Compare how each app <strong>reviews before deleting</strong>, whether it can <strong>undo or use a trash</strong>, and the <strong>price model</strong>. Facts below are from each US App Store listing (23 Nov 2026; Swipeo row 27 Nov 2026).",
     body="""<table><thead><tr><th>Option</th><th>What the listing says about duplicates</th><th>Price model and rating (US listing)</th></tr></thead><tbody>
 <tr><td>iPhone Photos (built in)</td><td>Duplicates album under Utilities, then Merge. See <a href="../../delete/merge-duplicate-photos-iphone/">how to merge duplicates</a></td><td>Free, part of iOS</td></tr>
 <tr><td>Clever Cleaner (CleverFiles)</td><td>AI scan groups duplicate and similar photos and marks a Best Shot; also large videos, screenshots, Live Photos to stills; a swipe mode is included</td><td>Free with daily limits per the listing; 4.8 from about 85,000 ratings</td></tr>
 <tr><td>CleanMy®Phone (MacPaw)</td><td>Finds duplicate and similar shots and helps you choose the best one; also large videos and similar contacts; says it works fully on-device</td><td>Free to download, 1-year subscription with trial per the listing; 4.6 from about 22,900 ratings</td></tr>
 <tr><td>Remo Duplicate Photos Remover</td><td>Finds exact duplicates and images that look almost the same; mark or unmark photos in each group</td><td>Free to download; 4.6 from about 13,600 ratings</td></tr>
 <tr><td>Slidebox</td><td>Swipe to delete, with a mode to swipe between similar photos and compare them; undo; album organizer; syncs changes with iCloud through the Photos app</td><td>Free with subscription or one-time purchase options; 4.8 from about 16,800 ratings</td></tr>
-<tr><td>Swipeo</td><td>Duplicate groups by type, resolution and capture time, shown for review before deleting; not AI; deleted items go to an in-app trash first</td><td>Free core cleanup; deleting duplicates is part of Pro</td></tr>
+<tr><td>Swipeo</td><td>Duplicate groups by type, resolution and capture time, shown for review before deleting; not AI; deleted items go to an in-app trash first</td><td>Free with a daily limit, including one duplicate group a day; Premium (weekly or yearly)</td></tr>
 </tbody></table>
 <h2>How to choose</h2>
 <ul><li><strong>Exact copies only:</strong> the built-in Duplicates album is enough and costs nothing.</li><li><strong>Many near-identical shots:</strong> an app with similar-photo groups saves time, because Apple's tool does not count shots taken seconds apart.</li><li><strong>You want to decide yourself:</strong> prefer one-by-one review and a trash or undo step over one-tap delete everything.</li><li><strong>Check the price model</strong> on the listing before you start: free tier, subscription or one-time purchase.</li></ul>
@@ -342,20 +346,21 @@ add(
 add(
     group="guides",
     slug="best-apps-to-free-up-iphone-storage-photos",
-    checked="23 Nov 2026",
-    iso="2026-11-23",
+    checked="27 Nov 2026",
+    iso="2026-11-27",
+    published="2026-11-23",
     title="iPhone Storage Full of Photos? Best Cleaner Apps Compared (2026)",
     description="Which kind of app fits a full iPhone: built-in tools, all-in-one cleaners (Clever Cleaner, CleanMy®Phone) or swipe cleaners (Slidebox, Pixtide, Odoa, Swipeo). Dated, with sources.",
     h1="iPhone storage full of photos: which cleaner app should you use?",
     lead="Pick by how you want to decide: let an app group the clutter, or review photos yourself one by one.",
-    answer="Try the free steps first: <strong>empty Recently Deleted</strong>, merge <strong>Duplicates</strong> and delete <strong>screenshots and large videos</strong>. If that is not enough, there are two kinds of apps: <strong>all-in-one cleaners</strong> that scan and group (Clever Cleaner, CleanMy®Phone) and <strong>swipe cleaners</strong> where you keep or delete one photo at a time (Slidebox, Pixtide Swipe, Odoa, Swipeo). Facts are from US App Store listings on 23 Nov 2026.",
+    answer="Try the free steps first: <strong>empty Recently Deleted</strong>, merge <strong>Duplicates</strong> and delete <strong>screenshots and large videos</strong>. If that is not enough, there are two kinds of apps: <strong>all-in-one cleaners</strong> that scan and group (Clever Cleaner, CleanMy®Phone) and <strong>swipe cleaners</strong> where you keep or delete one photo at a time (Slidebox, Pixtide Swipe, Odoa, Swipeo). Swipeo is the one to check if you want an in-app trash and storage statistics on iPhone or iPad. Facts are from US App Store listings (23 Nov 2026; Swipeo row 27 Nov 2026).",
     body="""<table><thead><tr><th>Type</th><th>App</th><th>What the listing says</th></tr></thead><tbody>
 <tr><td>All-in-one</td><td>Clever Cleaner (CleverFiles)</td><td>Duplicate and similar photos, large videos, screenshots, Live Photos to stills, compression; swipe mode included; free daily limits; 4.8 from about 85,000 ratings</td></tr>
 <tr><td>All-in-one</td><td>CleanMy®Phone (MacPaw)</td><td>Blurred photos, screenshots, large videos, duplicates and similar photos, similar contacts; on-device; subscription with trial; 4.6 from about 22,900 ratings</td></tr>
 <tr><td>Swipe</td><td>Slidebox</td><td>Swipe to delete, album organizer, compare similar photos, undo; subscription or one-time purchase; 4.8 from about 16,800 ratings</td></tr>
 <tr><td>Swipe</td><td>Pixtide Swipe</td><td>Swipe right to keep, left to delete, down for later; undo; says no ads and no subscription; one-time Pro purchase; new listing with few ratings</td></tr>
 <tr><td>Swipe</td><td>Odoa</td><td>Swipe left to delete, right to keep; library split by month with progress bars; new listing with few ratings</td></tr>
-<tr><td>Swipe</td><td>Swipeo</td><td>One card at a time, swipe or tap, undo, in-app trash with restore, duplicate groups (not AI), storage statistics, review sets such as screenshots, bursts and large videos; no cloud upload</td></tr>
+<tr><td>Swipe</td><td>Swipeo</td><td>One card at a time, swipe or tap, undo, in-app trash with restore, duplicate groups (not AI), storage statistics, review sets such as screenshots, bursts and large videos; iPhone and iPad; no cloud upload</td></tr>
 </tbody></table>
 <h2>How to choose</h2>
 <ul><li><strong>You want it done in a few taps:</strong> an all-in-one cleaner groups the clutter for you; still review what it selects.</li><li><strong>You want control:</strong> a swipe cleaner shows each photo before it goes, ideally with an undo or trash.</li><li><strong>You worry about privacy:</strong> read the App Privacy label and look for on-device processing.</li><li><strong>Space not coming back:</strong> deleted photos still use space until Recently Deleted is emptied. See <a href="../../storage/storage-not-freeing-after-deleting-photos/">storage not freeing after deleting photos</a>.</li></ul>
@@ -366,21 +371,23 @@ add(
         ("Why is my storage still full after deleting photos?", "Deleted photos stay in Recently Deleted for 30 days and still use space until you delete them there."),
     ],
     sources=[APPSTORE_CLEVER, APPSTORE_CMP, APPSTORE_SLIDEBOX, APPSTORE_PIXTIDE, APPSTORE_ODOA, APPSTORE_SWIPEO_US, APPLE_STORAGE, MACRUMORS_GUIDE],
-    related=["iphone-storage-full-photos", "iphone-photo-cleanup-checklist", "best-swipe-photo-cleaner-apps-iphone", "best-apps-to-delete-duplicate-photos-iphone"],
+    related=["photo-cleaner-no-cloud-upload", "iphone-storage-full-photos", "iphone-photo-cleanup-checklist", "best-swipe-photo-cleaner-apps-iphone", "best-apps-to-delete-duplicate-photos-iphone"],
     swipeo="Swipeo is a swipe cleaner: one photo at a time, with an in-app trash before anything reaches the iPhone's Recently Deleted. " + SW_SWIPE,
 )
 
 add(
     group="guides",
     slug="swipeo-vs-slidebox",
-    checked="23 Nov 2026",
-    iso="2026-11-23",
+    checked="27 Nov 2026",
+    iso="2026-11-27",
+    published="2026-11-23",
     title="Swipeo vs Slidebox: Swipe Photo Cleaners for iPhone Compared",
     description="Swipeo and Slidebox side by side: swipe review, undo and trash, duplicates and similar photos, albums, iCloud behavior and price model, from the App Store listings.",
     h1="Swipeo vs Slidebox",
     lead="Two swipe photo cleaners with different centers: Slidebox is also an album organizer, Swipeo is built around keep, delete and a trash.",
-    answer="Both let you <strong>swipe to keep or delete</strong> photos and have <strong>undo</strong>. Slidebox adds an <strong>album organizer</strong> and says changes <strong>sync with iCloud</strong> through the Photos app. Swipeo adds an <strong>in-app trash with restore</strong>, <strong>duplicate groups</strong> and <strong>storage statistics</strong>, and says it does not upload to the cloud. Facts are from the US App Store listings on 23 Nov 2026.",
+    answer="Both let you <strong>swipe to keep or delete</strong> photos and have <strong>undo</strong>. Slidebox adds an <strong>album organizer</strong> and says changes <strong>sync with iCloud</strong> through the Photos app. Swipeo adds an <strong>in-app trash with restore</strong>, <strong>duplicate groups</strong> and <strong>storage statistics</strong>, and says it does not upload to the cloud. Facts are from the US App Store listings (Slidebox 23 Nov 2026, Swipeo 27 Nov 2026).",
     body="""<table><thead><tr><th>Feature</th><th>Slidebox</th><th>Swipeo</th></tr></thead><tbody>
+<tr><td>iPad</td><td>See the listing</td><td>Yes, iPhone and iPad</td></tr>
 <tr><td>Swipe to keep or delete</td><td>Yes</td><td>Yes, swipe or tap</td></tr>
 <tr><td>Undo</td><td>Yes</td><td>Yes</td></tr>
 <tr><td>Trash before iOS Recently Deleted</td><td>Not described in the listing</td><td>In-app trash: restore, delete one or delete all</td></tr>
@@ -388,7 +395,7 @@ add(
 <tr><td>Albums</td><td>Sort photos into albums with one tap</td><td>Filter by album or capture day; no album organizer in the listing</td></tr>
 <tr><td>Storage statistics</td><td>Not described in the listing</td><td>Storage overview, media-type breakdown, monthly cleanup progress</td></tr>
 <tr><td>Cloud</td><td>Works with the Photos app; changes sync across iPhone and iCloud</td><td>Works with the on-device Photos library; no cloud upload</td></tr>
-<tr><td>Price model</td><td>Free with subscription (monthly or yearly) or one-time purchase</td><td>Free core cleanup; Pro (weekly or yearly)</td></tr>
+<tr><td>Price model</td><td>Free with subscription (monthly or yearly) or one-time purchase</td><td>Free with a daily deletion limit; Premium (weekly or yearly)</td></tr>
 <tr><td>Rating in US listing</td><td>4.8 from about 16,800 ratings</td><td>See the listing</td></tr>
 </tbody></table>
 <h2>Which fits you</h2>
@@ -400,6 +407,6 @@ add(
         ("Are both free?", "Both can be started free. Check each listing for what is included in the free tier and in the paid options."),
     ],
     sources=[APPSTORE_SLIDEBOX, APPSTORE_SWIPEO_US, APPLE_DELETE],
-    related=["best-swipe-photo-cleaner-apps-iphone", "swipe-to-delete-photos-iphone", "best-apps-to-free-up-iphone-storage-photos"],
+    related=["slidebox-alternatives", "best-swipe-photo-cleaner-apps-iphone", "swipe-to-delete-photos-iphone", "best-apps-to-free-up-iphone-storage-photos"],
     swipeo="Swipeo reviews your own Photos library one card at a time and keeps deleted items in its trash first. " + SW_SWIPE,
 )

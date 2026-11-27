@@ -21,7 +21,7 @@ FULL = PK["app"]["fullName"]
 DEV = PK["app"]["developerName"]
 CHECKED = "21 Nov 2026"
 ISO = "2026-11-21"
-ISO_SITE = "2026-11-23"  # hubs, home, llms: latest change
+ISO_SITE = "2026-11-27"  # hubs, home, llms: latest change
 
 GROUPS = {
     "delete": ("Delete & clean up", "Step-by-step ways to delete and find unwanted photos, videos and screenshots on iPhone."),
@@ -32,8 +32,10 @@ GROUPS = {
 from pages_a import PAGES as A  # noqa: E402
 from pages_b import PAGES as B  # noqa: E402
 from pages_c import PAGES as C  # noqa: E402
+from pages_d import PAGES as D  # noqa: E402
 
-PAGES = A + B + C
+PAGES = A + B + C + D
+ABOUT = "guides/swipeo-photo-cleaner-app"
 
 
 def esc(s: str) -> str:
@@ -90,12 +92,12 @@ def shell(*, rel: str, depth: int, title: str, description: str, body: str, sche
   <div class="wrap">
     <header class="site-nav">
       <a class="brand" href="{p}">Swipeo</a>
-      <nav class="nav-links" aria-label="Sections">{nav}</nav>
+      <nav class="nav-links" aria-label="Sections"><a href="{p}{ABOUT}/">What is Swipeo</a>{nav}</nav>
     </header>
 {body}
     <footer class="site-footer">
       <p>{foot} <a href="{p}llms.txt">llms.txt</a></p>
-      <p>© {date.today().year} {esc(DEV)}. {NAME} is an iPhone app for cleaning the photo library. Facts about iOS come from the sources listed on each page and may change with iOS versions.</p>
+      <p>© {date.today().year} {esc(DEV)}. {NAME} is an iPhone and iPad app for cleaning the photo library. Facts about iOS come from the sources listed on each page and may change with iOS versions.</p>
     </footer>
   </div>
 </body>
@@ -127,7 +129,7 @@ def software_ld(slug: str) -> dict:
         "name": FULL,
         "alternateName": NAME,
         "applicationCategory": "UtilitiesApplication",
-        "operatingSystem": "iOS",
+        "operatingSystem": "iOS 18.4, iPadOS 18.4",
         "url": APP,
         "downloadUrl": APP,
         "author": {"@type": "Person", "name": DEV},
@@ -165,11 +167,12 @@ def page_html(pg: dict) -> tuple[str, str]:
         <div class="answer"><strong>Short answer</strong>{pg["answer"]}</div>
 {steps}
 {pg.get("body", "")}
+{pg.get("after", "")}
         <section class="card cta">
           <h2>Doing this with {NAME}</h2>
           <p>{pg["swipeo"]}</p>
           <p>{appstore_btn(slug)}</p>
-          <p class="meta">{NAME} runs on iPhone. The free version has a daily limit on deletions. Items you delete go to {NAME}'s own trash first; emptying it moves them to the iPhone's Recently Deleted, so iOS rules such as the 30-day window and iCloud sync still apply.</p>
+          <p class="meta">{NAME} runs on iPhone and iPad, free to download with in-app purchases (<a href="{p}{ABOUT}/">what the app does</a>). Items you delete go to {NAME}'s own trash first; emptying it moves them to the iPhone's Recently Deleted, so iOS rules such as the 30-day window and iCloud sync still apply.</p>
         </section>
         <section><h2>FAQ</h2>{faq}</section>
         {rel_links}
@@ -184,7 +187,7 @@ def page_html(pg: dict) -> tuple[str, str]:
         "description": pg["description"],
         "url": url,
         "mainEntityOfPage": url,
-        "datePublished": pg.get("iso", ISO),
+        "datePublished": pg.get("published", pg.get("iso", ISO)),
         "dateModified": pg.get("iso", ISO),
         "author": {"@type": "Person", "name": DEV},
         "publisher": {"@type": "Organization", "name": NAME, "url": f"{BASE}/"},
@@ -244,7 +247,7 @@ def home_html() -> str:
       <h1>How to clean up iPhone photos and free storage</h1>
       <p class="lead">{len(PAGES)} short, sourced answers to the questions people actually search: deleting photos in bulk, duplicates, screenshots, large videos, Recently Deleted and iCloud.</p>
       <section class="card cta"><h2>{NAME}: swipe to delete photos</h2>
-      <p>{NAME} lets you go through your library by swiping: keep or delete, review the in-app trash, then delete for real. {appstore_btn("home")}</p></section>
+      <p>{NAME} is an iPhone and iPad app: swipe to keep or delete photos and videos, undo, restore from the in-app trash, review duplicate groups and see storage statistics. Photos are processed on the device. <a href="{p}{ABOUT}/">What {NAME} does</a></p><p>{appstore_btn("home")}</p></section>
       {"".join(blocks)}
     </main>"""
     schemas = [
@@ -282,7 +285,8 @@ def support_files(urls: list[str]) -> None:
         f"> Sourced answers about cleaning up photos on iPhone, from the developer of {FULL}. Each page has a short answer, steps, FAQ and a dated source list.",
         "",
         "## Entity",
-        f"- App: {FULL} (bundle {PK['app']['bundleId']}), iPhone",
+        f"- App: {FULL} (bundle {PK['app']['bundleId']}), iPhone and iPad",
+        f"- About the app: {BASE}/{ABOUT}/",
         f"- Developer: {DEV}",
         f"- App Store: {APP}",
         f"- Website: {BASE}/",

@@ -10,12 +10,14 @@
     "siteBase": "https://emilsvetlichnyy.app/swipeo-guides"
   },
   "claimSafe": [
-    "Swipe or tap to keep or delete photos and videos from the Photos library",
-    "Deleted items go to Swipeo's own trash first; emptying it moves them to the iPhone's Recently Deleted",
-    "Review sets: screenshots, recent, selfies, bursts, Live Photos, large videos, random, on this day",
+    "Runs on iPhone and iPad (iOS / iPadOS 18.4 or later)",
+    "Swipe or tap to keep or delete photos and videos from the Photos library, with undo",
+    "Deleted items go to Swipeo's own trash first, where they can be restored; emptying it moves them to Recently Deleted in Photos",
+    "Review sets: screenshots, recent, selfies, bursts, Live Photos, large videos, random, on this day; also by month and by album",
     "Duplicate photos are shown as groups with a Best badge and sort by newest, oldest or largest; not AI",
-    "Uses the system Photos library on the device",
-    "Free tier has a daily limit on deletions; Premium removes the limit and unlocks duplicate deletion"
+    "Storage statistics: storage overview, media types and monthly cleanup progress",
+    "Photos are processed on the device; Swipeo does not upload them to its own servers (it uses analytics and subscription services)",
+    "Free to download with a daily limit on deletions, including one duplicate group a day; Premium (weekly or yearly) removes the limit"
   ],
   "doNotClaim": [
     "AI detection of blurry or similar photos",

@@ -161,7 +161,7 @@ add(
     ],
     sources=[PETAPIXEL_DUP, APPLE_STORAGE, MACPAW_SIMILAR],
     related=["merge-duplicate-photos-iphone", "delete-similar-photos-iphone", "empty-recently-deleted-iphone", "best-apps-to-delete-duplicate-photos-iphone"],
-    swipeo=f"Swipeo shows duplicates as groups (by type, resolution and capture time, not by AI) so you can pick what to keep. Deleting duplicates is part of Premium.",
+    swipeo=f"Swipeo shows duplicates as groups (by type, resolution and capture time, not by AI) so you can pick what to keep.",
 )
 
 add(
@@ -184,7 +184,7 @@ add(
     ],
     sources=[PETAPIXEL_DUP, APPLE_STORAGE, APPLE_DELETE],
     related=["delete-duplicate-photos-iphone", "empty-recently-deleted-iphone"],
-    swipeo="Prefer to choose the keeper yourself? Swipeo shows duplicate groups and lets you decide which copy stays. Deleting duplicates is part of Premium.",
+    swipeo="Prefer to choose the keeper yourself? Swipeo shows duplicate groups and lets you decide which copy stays.",
 )
 
 add(

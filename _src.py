@@ -41,4 +41,5 @@ APPSTORE_REMO = ("App Store: Remo Duplicate Photos Remover", "https://apps.apple
 APPSTORE_SLIDEBOX = ("App Store: Slidebox: Photo Cleaner App", "https://apps.apple.com/us/app/slidebox-photo-cleaner-app/id984305203")
 APPSTORE_PIXTIDE = ("App Store: Pixtide Swipe: Photo Cleaner", "https://apps.apple.com/us/app/pixtide-swipe-photo-cleaner/id6760231644")
 APPSTORE_ODOA = ("App Store: Photo Storage Cleaner: Odoa", "https://apps.apple.com/us/app/photo-storage-cleaner-odoa/id1460602616")
+APPSTORE_SWIPEWIPE_US = ("App Store: Swipewipe: Photo Cleaner (MWM)", "https://apps.apple.com/app/id1583884012")
 APPSTORE_SWIPEO_US = ("App Store: Swipeo: Swipe to Delete Photos", "https://apps.apple.com/us/app/swipeo-swipe-to-delete-photos/id6758884214")
