@@ -84,6 +84,10 @@ def shell(*, rel: str, depth: int, title: str, description: str, body: str, sche
   <meta property="og:title" content="{esc(title)}">
   <meta property="og:description" content="{esc(description)}">
   <meta property="og:url" content="{canon}">
+  <meta property="og:image" content="{BASE}/assets/swipeo-home.jpg">
+  <meta property="og:image:width" content="600">
+  <meta property="og:image:height" content="1303">
+  <meta name="twitter:card" content="summary">
   <meta name="apple-itunes-app" content="app-id={PK['app']['trackId']}">
   <link rel="stylesheet" href="{p}styles.css">
 {ld}
@@ -97,6 +101,7 @@ def shell(*, rel: str, depth: int, title: str, description: str, body: str, sche
 {body}
     <footer class="site-footer">
       <p>{foot} <a href="{p}llms.txt">llms.txt</a></p>
+      <p>More from the same developer: <a href="https://emilsvetlichnyy.app/exif-plus/">EXIF+ metadata remover</a> · <a href="https://emilsvetlichnyy.app/chart-maker/">VIA chart maker</a> · <a href="https://emilsvetlichnyy.app/zipvid-guides/">Zipvid video compressor</a></p>
       <p>© {date.today().year} {esc(DEV)}. {NAME} is an iPhone and iPad app for cleaning the photo library. Facts about iOS come from the sources listed on each page and may change with iOS versions.</p>
     </footer>
   </div>
